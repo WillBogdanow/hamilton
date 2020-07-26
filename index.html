@@ -163,54 +163,65 @@
     <h2 id="poster">
         海报与剧照
     </h2>
-    <p>
-        <img id="xxx" width="400" src="image/Hamilton1.jpg" alt="Hamilton">哈密尔顿
-        <script>
-            xxx.onload = function() {
-                console.log("图片加载成功");
-            };
-            xxx.onerror = function() {
-                console.log("图片加载失败");
-                xxx.src = "/Hamilton2.jpg";
-            };
-        </script>
-        <br>
+    
+        <div>
+            <a href="image/Hamilton1.jpg" target="_blank">
+                <img id="xxx" width="400" src="image/Hamilton1.jpg" alt="Hamilton"></a>哈密尔顿
+            <script>
+                xxx.onload = function() {
+                    console.log("图片加载成功");
+                };
+                xxx.onerror = function() {
+                    console.log("图片加载失败");
+                    xxx.src = "/Hamilton2.jpg";
+                };
+            </script>
+        </div>
+        
 
-        <img id="yyy" width="400" src="image/poster1.jpg" alt="poster1">
-        <script>
-            yyy.onload = function() {
-                console.log("图片加载成功");
-            };
-            yyy.onerror = function() {
-                console.log("图片加载失败");
-                xxx.src = "/poster2.jpg";
-            };
-        </script>
-        <br>
+        <div>
+            <a href="image/poster1.jpg" target="_blank">
+                <img id="yyy" width="400" src="image/poster1.jpg" alt="poster1"></a>
+            <script>
+                yyy.onload = function() {
+                    console.log("图片加载成功");
+                };
+                yyy.onerror = function() {
+                    console.log("图片加载失败");
+                    xxx.src = "/poster2.jpg";
+                };
+            </script>
+        </div>
+        
 
-        <img id="zzz" width="400" src="image/Washington1.jpg" alt="Washington1">华盛顿
-        <script>
-            yyy.onload = function() {
-                console.log("图片加载成功");
-            };
-            yyy.onerror = function() {
-                console.log("图片加载失败");
-                xxx.src = "/Washington2.jpg"
-            };
-        </script>
-        <br>
+        <div>
+            <a href="image/Washington1.jpg" target="_blank"
+            ><img id="zzz" width="400" src="image/Washington1.jpg" alt="Washington1"></a>华盛顿
+            <script>
+                yyy.onload = function() {
+                    console.log("图片加载成功");
+                };
+                yyy.onerror = function() {
+                    console.log("图片加载失败");
+                    xxx.src = "/Washington2.jpg"
+                };
+            </script>
+        </div>
+        
 
-        <img id="www" width="400" src="image/schuyler1.jpg" alt="schuyler1">斯凯乐姐妹
+        <div>
+            <a href="image/schuyler1.jpg" target="_blank">
+                <img id="www" width="400" src="image/schuyler1.jpg" alt="schuyler1"></a>斯凯乐姐妹
         <script>
-            www.onload = function() {
-                console.log("图片加载成功");
-            };
-            www.onerror = function() {
-                console.log("图片加载失败");
-                xxx.src = "/schuyler2.jpg";
-            };
-        </script>
-    </p>
+        www.onload = function() {
+        console.log("图片加载成功");
+        };
+        www.onerror = function() {
+        console.log("图片加载失败");
+        xxx.src = "/schuyler2.jpg";
+        };
+        </script></div>
+    
 
      <div style="height: 1000px;"></div>
   </body>
